@@ -1,0 +1,153 @@
+[
+    {
+        "name": "Library Management System",
+        "catchyName": "LibraSys",
+        "description": "LibraSys is a comprehensive library management system that allows librarians to efficiently manage library resources, track book loans, and streamline library operations.",
+        "maintainers": ["Alice", "Bob"],
+        "githubLink": "https://github.com/librasys",
+        "projectLink": "https://librasys.com",
+        "club": "DevC",
+        "label": "easy"
+    },
+    {
+        "name": "Event Ticketing System",
+        "catchyName": "Eventify",
+        "description": "Eventify is a versatile event ticketing system designed to simplify event management, ticket sales, and attendee tracking for event organizers and participants alike.",
+        "maintainers": ["Charlie", "Diana"],
+        "githubLink": "https://github.com/eventify",
+        "projectLink": "https://eventify.com",
+        "club": "AIC",
+        "label": "medium"
+    },
+    {
+        "name": "E-commerce Platform",
+        "catchyName": "Shopify",
+        "description": "Shopify is a robust e-commerce platform that empowers businesses to create online stores, manage product listings, process orders, and drive sales through integrated marketing tools.",
+        "maintainers": ["Ethan", "Fiona"],
+        "githubLink": "https://github.com/shopify",
+        "projectLink": "https://shopify.com",
+        "club": "CySec",
+        "label": "hard"
+    },
+    {
+        "name": "Food Delivery App",
+        "catchyName": "QuickEats",
+        "description": "QuickEats is a user-friendly food delivery application that connects users with local restaurants, enabling them to browse menus, place orders, and track deliveries in real-time.",
+        "maintainers": ["George", "Hannah"],
+        "githubLink": "https://github.com/quickeats",
+        "projectLink": "https://quickeats.com",
+        "club": "PyC",
+        "label": "easy"
+    },
+    {
+        "name": "Remote Collaboration Tool",
+        "catchyName": "TeamSync",
+        "description": "TeamSync is a collaborative platform designed to facilitate remote teamwork by providing features such as video conferencing, file sharing, task management, and real-time communication.",
+        "maintainers": ["Ian", "Jessica"],
+        "githubLink": "https://github.com/teamsync",
+        "projectLink": "https://teamsync.com",
+        "club": "Rec",
+        "label": "medium"
+    },
+    {
+        "name": "Online Learning Platform",
+        "catchyName": "EduHub",
+        "description": "EduHub is an innovative online learning platform that offers a wide range of courses and educational resources to learners of all ages, helping them acquire new skills and knowledge in a flexible and engaging manner.",
+        "maintainers": ["Kevin", "Laura"],
+        "githubLink": "https://github.com/eduhub",
+        "projectLink": "https://eduhub.com",
+        "club": "DevC",
+        "label": "easy"
+    },
+    {
+        "name": "Fitness Tracking App",
+        "catchyName": "FitTrack",
+        "description": "FitTrack is a personalized fitness tracking app that helps users set fitness goals, track their workouts, monitor progress, and stay motivated on their fitness journey.",
+        "maintainers": ["Mike", "Natalie"],
+        "githubLink": "https://github.com/fittrack",
+        "projectLink": "https://fittrack.com",
+        "club": "AIC",
+        "label": "hard"
+    },
+    {
+        "name": "Online Marketplace",
+        "catchyName": "MarketMall",
+        "description": "MarketMall is a vibrant online marketplace where sellers can list their products, and buyers can browse, compare, and purchase items from a diverse range of categories, all in one convenient platform.",
+        "maintainers": ["Oliver", "Pamela"],
+        "githubLink": "https://github.com/marketmall",
+        "projectLink": "https://marketmall.com",
+        "club": "CySec",
+        "label": "medium"
+    },
+    {
+        "name": "Travel Booking Platform",
+        "catchyName": "TravelEase",
+        "description": "TravelEase is a one-stop travel booking platform that allows users to search for flights, hotels, rental cars, and vacation packages, compare prices, and make reservations with ease.",
+        "maintainers": ["Quinn", "Rachel"],
+        "githubLink": "https://github.com/travelease",
+        "projectLink": "https://travelease.com",
+        "club": "PyC",
+        "label": "easy"
+    },
+    {
+        "name": "Task Management Tool",
+        "catchyName": "TaskMaster",
+        "description": "TaskMaster is a simple yet powerful task management tool that helps individuals and teams organize their tasks, prioritize work, set deadlines, and track progress towards their goals.",
+        "maintainers": ["Sam", "Tina"],
+        "githubLink": "https://github.com/taskmaster",
+        "projectLink": "https://taskmaster.com",
+        "club": "Rec",
+        "label": "medium"
+    },
+    {
+        "name": "Social Networking App",
+        "catchyName": "Connectify",
+        "description": "Connectify is a social networking app that enables users to connect with friends, share updates, photos, and videos, join communities, and discover new interests, all in one intuitive platform.",
+        "maintainers": ["Ursula", "Victor"],
+        "githubLink": "https://github.com/connectify",
+        "projectLink": "https://connectify.com",
+        "club": "DevC",
+        "label": "easy"
+    },
+    {
+        "name": "Recipe Sharing Platform",
+        "catchyName": "RecipeRadar",
+        "description": "RecipeRadar is a community-driven recipe sharing platform where users can discover, save, and share their favorite recipes, cooking tips, and culinary adventures with fellow food enthusiasts.",
+        "maintainers": ["Wendy", "Xander"],
+        "githubLink": "https://github.com/reciperadar",
+        "projectLink": "https://reciperadar.com",
+        "club": "AIC",
+        "label": "hard"
+    },
+    {
+        "name": "Music Streaming Service",
+        "catchyName": "TuneBox",
+        "description": "TuneBox is a cutting-edge music streaming service that offers users access to millions of songs, curated playlists, personalized recommendations, and exclusive content, all in high-quality audio.",
+        "maintainers": ["Yolanda", "Zane"],
+        "githubLink": "https://github.com/tunebox",
+        "projectLink": "https://tunebox.com",
+        "club": "CySec",
+        "label": "medium"
+    },
+    {
+        "name": "Language Learning App",
+        "catchyName": "LingoLift",
+        "description": "LingoLift is a gamified language learning app that makes learning a new language fun, engaging, and effective through interactive lessons, quizzes, and immersive exercises tailored to individual learning styles.",
+        "maintainers": ["Xavier", "Yvette"],
+        "githubLink": "https://github.com/lingolift",
+        "projectLink": "https://lingolift.com",
+        "club": "PyC",
+        "label": "easy"
+    },
+    {
+        "name": "Job Search Platform",
+        "catchyName": "JobQuest",
+        "description": "JobQuest is a comprehensive job search platform that connects job seekers with employers, allowing them to search for job opportunities, submit applications, and showcase their skills and experience to potential employers.",
+        "maintainers": ["Zack", "Wanda"],
+        "githubLink": "https://github.com/jobquest",
+        "projectLink": "https://jobquest.com",
+        "club": "Rec",
+        "label": "medium"
+    }
+  
+]

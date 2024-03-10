@@ -14,7 +14,7 @@ import ProjectCard from "./components/ProjectCard/ProjectCard";
 const App = () => {
   return (
     <div className="bg-bground min-h-screen">
-      <NavBar />
+      {/* <NavBar /> */}
       
         <Routes>
           <Route exact path="/" element={<Home />} />

@@ -1,0 +1,102 @@
+.project-card {
+    box-sizing: border-box;
+    height: auto;
+    width: 23rem;
+    background-color: #112240;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    border: 0px solid transparent;
+    border-radius: 16px;
+    padding: 32px;
+    min-height: 25rem;
+
+}
+
+
+.project-card:hover  {
+    box-shadow: 0px 0px 5px 0px #00FFD1;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.project-card:hover .project-name {
+    color:#00FFD1 ;
+}
+
+.upper-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-logo:hover {
+    color: #00FFD1;
+    fill: #00FFD1;
+}
+
+
+
+
+
+.upper-logos .links {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+.project-name {
+    font-family: "Calibrie";
+    font-size: 1.5rem;
+    letter-spacing: .01rem;
+    margin-top: 1rem;
+    color: white;
+    margin-bottom: .7rem;  
+    font-weight: bolder;  
+    text-align: left;
+}
+
+.project-description{
+     font-family: "Calibrie";
+     color: white;
+     font-size: 1rem ;
+     text-align: left;
+    
+}
+
+.club-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: top;
+   
+}
+
+
+
+.powered-by{
+   color: white;
+   font-family: "Calibrie";
+   font-weight: 400;
+   font-size: 1rem;
+   font-weight: 800;
+
+}
+
+.club-name{
+    color:#02ffd1;
+    font-weight: 900;
+
+}
+
+.maintained-by{
+    color: white;
+    font-family: "Calibrie";
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.maintainer-name{
+    color:#02ffd1;
+    font-weight: 900;
+}
