@@ -13,7 +13,8 @@ I have store all the neccessory color code in variable which you can see in tail
 
 | Variable  | Hex Code | Color                                                                     |
 | --------- | -------- | ------------------------------------------------------------------------- |
-| bground   | #0D203D  | <div style="background-color: #0D203D; width: 20px; height: 20px;"></div> |
+| bground   | #0A192F  | <div style="background-color: #0A192F; width: 20px; height: 20px;"></div> |
+| ccolor   | #0D203D  | <div style="background-color: #0D203D; width: 20px; height: 20px;"></div> |
 | head      | #CAD4E0  | <div style="background-color: #CAD4E0; width: 20px; height: 20px;"></div> |
 | primary   | #00FFD1  | <div style="background-color: #00FFD1; width: 20px; height: 20px;"></div> |
 | secondary | #93A2B7  | <div style="background-color: #93A2B7; width: 20px; height: 20px;"></div> |
