@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'DIGITAL';
+    src: url('../src/assets/DS-DIGII.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/assets/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../src/assets/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../src/assets/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../src/assets/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Calibrie';
+    src: url('../src/assets/CalibriRegular.ttf') format('truetype');
+}
+
+

@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'DIGITAL';
+    src: url('../../assets/DS-DIGII.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../assets/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/Roboto-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../../assets/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+
+@media screen and (max-width: 768px) {
+    .right-navbar-container {
+        gap: 16px;
+        display: flex;
+        flex-direction: row;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        align-items: center;
+
+        
+    }
+
+    .left-navbar-container {
+        font-family: 'DIGITAL', sans-serif;
+        text-align: center;
+    
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .right-navbar-container {
+        gap: 16px;
+        display: flex;
+        flex-direction: row;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        align-items: center;
+  
+    }
+    .left-navbar-container {
+        font-family: 'DIGITAL', sans-serif;
+        display: flex;
+        text-align: center;
+    
+    }
+}
+
+
+
+.navbar-parent-container {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+    background: #0A192F;
+    color: #00FFD1;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-navbar-container {
+    font-family: 'DIGITAL', sans-serif;
+    font-size: 48px;
+    margin-left: 48px;
+
+}
+
+.right-navbar-container {
+    gap: 64px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 48px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.register-button{
+    padding: 18px 36px;
+    border-radius: 8px;
+    border: 1px solid #00FFD1;
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    z-index: 2;
+}
+
+.register-button:hover{
+    transform: translateY(-5px) translateX(-5px);
+    background-color:#00FFD1;
+    z-index: 2;
+}
+
+.register-button-container{
+    position: relative;
+}
+
+.hover-color{
+    display: none;
+}
+
+.hover-color:hover{
+    display: block;
+    background-color: #00FFD1;
+} 
+

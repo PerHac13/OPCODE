@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
@@ -9,12 +9,13 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
+import ProjectCard from "./components/ProjectCard/ProjectCard";
 
 const App = () => {
   return (
     <div className="bg-bground min-h-screen">
       <NavBar />
-      <BrowserRouter>
+      
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -23,7 +24,7 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-      </BrowserRouter>
+      
       <Footer />
     </div>
   );
