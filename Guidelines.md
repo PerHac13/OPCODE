@@ -59,3 +59,5 @@ Welcome to OPCODE, the Open Spring fest where innovation meets collaboration! Be
 
 12. **Discord Community:**
     - All participants are required to join the Discord community, where they will receive detailed information and have dedicated channels for discussions.
+
+These guidelines aim to ensure a fair, transparent, and enriching experience for all participants in the OPCODE Open Spring fest. Let the collaboration begin!
