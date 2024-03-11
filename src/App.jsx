@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects/Projects";
 import Sponsors from "./pages/Sponsors/Sponsors";
@@ -9,13 +8,12 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
-import ProjectCard from "./components/ProjectCard/ProjectCard";
+
 
 const App = () => {
   return (
     <div className="bg-bground min-h-screen">
       <NavBar />
-      
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
