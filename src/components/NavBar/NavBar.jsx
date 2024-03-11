@@ -1,30 +1,23 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import "./NavBar.css";
-
-const Navbar = () => {
+import logo from '../../assets/logo.svg'
+import Button from '../Button/Button'
+//import Hamicon from '../NavBar/hamburger'
+const Navbar=() =>{
   return (
-    <div className="navbar-parent-container">
-      <div className="left-navbar-container">OPCODE</div>
-
-      <div className="right-navbar-container">
-        <NavLink to="/projects" className="nav-link">
-          Project
-        </NavLink>
-        <NavLink to="/sponsors" className="nav-link">
-          Sponsors
-        </NavLink>
-        <NavLink to="/about" className="nav-link">
-          About Us
-        </NavLink>
-
-        <div className="register-button-container">
-          <div className="register-button">Register</div>
-          <div className="hover-color"> </div>
+    <div className='p-[2rem]'>
+        <div className='text-[#00FFD1] flex items-center'>
+        <div><img src={logo}></img></div>
+        <div className='flex gap-20 items-center [font-size:1rem] [font-weight:400] cursor-pointer'>
+            <div>Leaderboard</div>
+            <div>Sponsors</div>
+            <div>Projects</div>
+            <div>About Us</div>
+            <Button/>
         </div>
-      </div>
-    </div>
-  );
-};
+            
 
-export default Navbar;
+        </div>
+    </div>
+  )
+}
+
+export default Navbar
