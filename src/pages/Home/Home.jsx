@@ -16,8 +16,8 @@ const Home = () => {
       <p className='text-[#64748A]'>The old bookstore stood at the corner of Maple Street, its weathered facade a testament to the passage of time. Inside, shelves lined with dusty tomes stretched from floor to ceiling, each book whispering stories of distant lands and forgotten adventures.</p>
       <br></br>
       <div className='flex gap-5'>
-          <Button/>
-          <Button/>
+          <Button name={"Dive In"}/>
+          <Button name={"Register"}/>
       </div>
   </div>;
 };
