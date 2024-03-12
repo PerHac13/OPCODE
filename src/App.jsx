@@ -9,7 +9,6 @@ import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
-
 const App = () => {
   return (
     <div className="bg-bground min-h-screen">

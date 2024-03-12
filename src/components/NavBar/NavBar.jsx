@@ -53,9 +53,9 @@ function Navbar() {
 
                     {/* Navbar links */}
                     <div className="justify-end gap-12 items-center [font-size:1rem] [font-weight:400] cursor-pointer hidden md:flex">
-                        <div className="text-[#00FFD1] mx-4">Projects</div>
-                        <div className="text-[#00FFD1] mx-4">Sponsors</div>
-                        <div className="text-[#00FFD1] mx-4">About Us</div>
+                        <div className="text-[#00FFD1] mx-4 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Projects</div>
+                        <div className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Sponsors</div>
+                        <div className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">About Us</div>
                         <Button name={"Register"}/>
                     </div>
 

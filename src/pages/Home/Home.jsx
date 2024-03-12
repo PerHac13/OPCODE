@@ -1,17 +1,20 @@
 import logo from '../../assets/logo.svg'
 import Button from '../../components/Button/Button'
+import About from './about_fest';
 const Home = () => {
-  return <div className=' px-[1rem] lg:mx-[10rem] md:mx-[6rem] sm:mx-[4rem]  lg:w-[30rem] pb-[3rem]'>   
+  return (
+    <div className='p-[8rem]'>
+                <div className=' px-[1rem] lg:mx-[10rem] md:mx-[6rem] sm:mx-[4rem]  lg:w-[30rem] pb-[3rem]'>   
       <div className="flex text-[#00FFD1]  items-center gap-6 mb-[3rem] pt-[2rem]">
   
         <div>Contribute</div>
-        <div className="bg-[#00FFD1] lg:w-[0.5rem] lg:h-[0.5rem] [border-radius:100%] md:w-[0.5rem] md:h-[0.5rem]" ></div>
+        <div className="bg-[#00FFD1]  [border-radius:100%] w-2 h-2" ></div>
         <div>Collaborate</div>
-        <div className="bg-[#00FFD1] w-[0.5rem] h-[0.5rem] [border-radius:100%]" ></div>
+        <div className="bg-[#00FFD1] w-2 h-2 [border-radius:100%]" ></div>
         <div>Celebrate</div>
       </div>
       <div className='sm:px-2 md:px-2'>
-          <div><img src={logo}></img></div>
+          <div><img  className='w-[15rem] ' src={logo}></img></div>
           <br></br>
           <p className='text-[#CAD4E0] [font-size:2rem]'>Open Source Spring Fest</p>
           <br></br>
@@ -22,8 +25,14 @@ const Home = () => {
               <Button name={"Register"}/>
           </div>
       </div>
+
+    </div>
+   <About/>
+
       
-  </div>;
+      
+  </div>
+  )
 };
 
 export default Home;
