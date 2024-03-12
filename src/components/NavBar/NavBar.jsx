@@ -44,7 +44,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="p-4 overflow-hidden">
+        <nav className="p-4 overflow-hidden fixed w-full top-0 left-0 z-[1000] bg-bground">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
@@ -54,7 +54,7 @@ function Navbar() {
 
                     {/* Navbar links */}
                     <div className="justify-end gap-12 items-center [font-size:1rem] [font-weight:400] cursor-pointer hidden md:flex">
-                        <NavLink to='/home' className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Home</NavLink>
+                        <NavLink to='/' className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Home</NavLink>
                         <NavLink to='/projects' className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Projects</NavLink>
                         <NavLink to='/sponsors' className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">Sponsors</NavLink>
                         <NavLink to='/aboutus' className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100">About Us</NavLink>
@@ -75,7 +75,7 @@ function Navbar() {
             {/* Mobile menu (hidden by default) */}
             {isOpen && (
                 <div className="md:hidden p-4 cursor-pointer">
-                    <NavLink to='/home'className="block text-[#00FFD1] my-2">Home</NavLink>
+                    <NavLink to='/'className="block text-[#00FFD1] my-2">Home</NavLink>
                     <NavLink to='/projects' className="block text-[#00FFD1] my-2">Projects</NavLink>
                     <NavLink to='/sponsors' className="block text-[#00FFD1] my-2">Sponsors</NavLink>
                     <NavLink to='/aboutus' className="block text-[#00FFD1] my-2">About Us</NavLink>
