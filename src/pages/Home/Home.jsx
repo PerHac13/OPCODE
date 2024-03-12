@@ -3,7 +3,7 @@ import Button from '../../components/Button/Button'
 import About from './about_fest';
 const Home = () => {
   return (
-    <div className='sm:p-[8rem]'>
+    <div className='sm:p-[8rem] '>
       {/* <div className=''/> */}
                 <div className='px-[1rem] lg:mx-[10rem] md:mx-[6rem] sm:mx-[4rem]  lg:w-[30rem] pb-[3rem]'>   
                     <div className="flex text-[#00FFD1]  items-center gap-6 mb-[3rem] pt-[2rem]">
