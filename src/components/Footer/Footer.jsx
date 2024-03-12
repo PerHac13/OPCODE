@@ -3,11 +3,12 @@ import logo from "../../assets/college_logo.png";
 const Footer = () => {
   return (
     <>
+    <footer>
       <div className="main-footer-box">
         <img className="logo-college" src={logo} alt="IIIT Bhagalpur Logo" />
         <div className="college-name">
           {" "}
-          Indian Institute of Information Technology
+          Indian Institute of Information Technology - Bhagalpur
         </div>
         <div className="social-info">Connect with us on social media</div>
         <div className="logos-social-media">
@@ -71,6 +72,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      </footer>
     </>
   );
 };
