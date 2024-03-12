@@ -45,7 +45,7 @@ function Navbar() {
 
     return (
         <nav className="p-4 overflow-hidden fixed w-full top-0 left-0 z-[1000] bg-bground">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-4 pt-2">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <div>
