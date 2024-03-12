@@ -47,7 +47,7 @@ Welcome to OPCODE, the Open Spring fest where innovation meets collaboration! Be
 
    - If an issue is assigned to a participant, they must complete it within the given time period as specified by the maintainer.
    - Participants can request the maintainer or project manager to assign them an issue. Only then can they work on that issue.
-   - If a participant couldn't solve the issue within the given time period, it will be assigned to another participant for better practice.
+   - If a participant couldn't solve the issue within the given time period, it will be assigned to another participant.
 
 10. **Leaderboard:**
 
