@@ -1,0 +1,181 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    backdrop-filter: blur(8px); 
+    -webkit-backdrop-filter: blur(8px); /* For Safari */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.5s;
+
+    /* will remove it after showing shaikh */
+    /* max-width: 50rem;
+    overflow: scroll;
+    overflow-x: hidden; */
+   
+  }
+  
+  .modal-content {
+   
+    border-radius: 8px;
+  
+    max-width: 80%;
+    color: whitesmoke;
+   
+    transition: background-color 0.5s, box-shadow 0.5s; 
+    border-radius: 1.5rem;
+  }
+  
+  .close-button {
+      margin-bottom: 1.5rem;
+      padding: 2rem;
+      background-color: whitesmoke;
+      color: black;
+      font-family: 'Inter';
+      border-radius: 100%;
+  }
+  
+  
+  
+ 
+  .close-button-container{
+    display: flex;
+    justify-content: center;
+  }
+
+
+  .top-modal-container {
+    display: flex;
+     padding: .5rem 3rem;
+    justify-content: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 760px) {
+    .top-modal-container {
+        flex-direction: column;
+         gap:2rem
+    }
+
+    .tech-stack{
+      display: flex;
+      gap: 1rem;
+      margin-top: 3rem;
+      flex-direction: column;
+      
+  
+    }
+  
+
+ 
+}
+
+  .top-modal-container .right{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+  }
+  
+
+  .main-container{
+    background-color: #0d203d;
+    padding: 3rem;
+    border-radius: 2rem;
+  }
+
+  .project-title-modal{
+    font-family: 'Calibrie';
+    font-size: 2rem;
+    color: #00ffd1;
+    margin-bottom: 1rem;
+    font-weight: 800;
+  }
+
+  .project-description-modal{
+    font-family: 'Calibrie';
+    font-size: 1.2rem;
+    font-weight: 400;
+    word-spacing: 2px;
+    text-align: left;
+    max-width: 50rem;
+   
+  }
+
+  .technologies-used{
+    display: flex;
+    flex-direction: row;
+    color: #00ffd1;
+    border: 2px solid #00ffd1;
+    width: auto;
+    font-family: 'Calibrie';
+    font-size: 1.1rem;
+    text-align: center;
+    border-radius: 4rem;
+    padding: 0.3rem 0.7rem;
+
+
+  
+  }
+
+  .project-detail-container{
+    padding: 1rem 3rem;
+  }
+
+  .tech-stack{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+  }
+
+
+  .club-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    align-items: top;
+   
+}
+
+.powered-by{
+    color: white;
+    font-family: "Calibrie";
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 800;
+ 
+ }
+
+ .club-name{
+    color:#02ffd1;
+    font-weight: 900;
+
+}
+
+.maintained-by{
+    color: white;
+    font-family: "Calibrie";
+    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.maintainer-name{
+    color:#02ffd1;
+    font-weight: 900;
+}
+
+
+
+
+
+
+

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import Button from "../Button/Button";
 // //import Hamicon from '../NavBar/hamburger'
@@ -53,9 +54,10 @@ function Navbar() {
 
                     {/* Navbar links */}
                     <div className="justify-end gap-12 items-center [font-size:1rem] [font-weight:400] cursor-pointer hidden md:flex">
-                        <div className="text-[#00FFD1] mx-4">Projects</div>
-                        <div className="text-[#00FFD1] mx-4">Sponsors</div>
-                        <div className="text-[#00FFD1] mx-4">About Us</div>
+                        <NavLink to='/home'className="text-[#00FFD1] mx-4">Home</NavLink>
+                        <NavLink to='/projects'className="text-[#00FFD1] mx-4">Projects</NavLink>
+                        <NavLink to='/sponsors' className="text-[#00FFD1] mx-4">Sponsors</NavLink>
+                        <NavLink to='/aboutus' className="text-[#00FFD1] mx-4">About Us</NavLink>
                         <Button name={"Register"}/>
                     </div>
 
@@ -73,9 +75,10 @@ function Navbar() {
             {/* Mobile menu (hidden by default) */}
             {isOpen && (
                 <div className="md:hidden p-4 cursor-pointer">
-                    <div className="block text-[#00FFD1] my-2">Projects</div>
-                    <div className="block text-[#00FFD1] my-2">Sponsors</div>
-                    <div className="block text-[#00FFD1] my-2">About Us</div>
+                    <NavLink to='/home'className="block text-[#00FFD1] my-2">Home</NavLink>
+                    <NavLink to='/projects' className="block text-[#00FFD1] my-2">Projects</NavLink>
+                    <NavLink to='/sponsors' className="block text-[#00FFD1] my-2">Sponsors</NavLink>
+                    <NavLink to='/aboutus' className="block text-[#00FFD1] my-2">About Us</NavLink>
                     <Button className={'w-[9.7rem]'} name={"Register"}/>
                 </div>
             )}

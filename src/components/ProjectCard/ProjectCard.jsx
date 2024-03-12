@@ -9,6 +9,7 @@ const ProjectCard = ({
   description,
   club,
   maintainers,
+  onClick
 }) => {
   const [isHoveredGithubLink, setIsHoveredGithubLink] = useState(false);
   const [isHoveredProjectLink, setIsHoveredProjectLink] = useState(false);
@@ -19,7 +20,7 @@ const ProjectCard = ({
   const fileColors = label==="hard"?'#D37676':label==='medium'?'#F1EF99 ':'#0D9276';
   return (
     <>
-      <div className="project-card">
+      <div onClick={onClick} className="project-card">
         <div className="upper-logos">
           <div className="file-logo">
             <svg
