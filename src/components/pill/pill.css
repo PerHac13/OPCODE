@@ -1,7 +1,7 @@
 .pill-container{
     color: #00ffd1;
     border: 2px solid #00ffd1;
-    width: 5rem;
+    width: auto;
     font-family: 'Calibrie';
     font-size: 1.1rem;
     text-align: center;
@@ -14,7 +14,7 @@
 .pill-container:hover{
     color: #00ffd1;
     border: 2px solid #b9e4dc;
-    width: 5rem;
+    width: auto;
     text-align: center;
     border-radius: 4rem;
     font-family: 'Calibrie';

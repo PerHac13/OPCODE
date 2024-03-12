@@ -7,7 +7,8 @@
         "githubLink": "https://github.com/librasys",
         "projectLink": "https://librasys.com",
         "club": "DevC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["React", "Node.js", "MongoDB"]
     },
     {
         "name": "Event Ticketing System",
@@ -17,7 +18,8 @@
         "githubLink": "https://github.com/eventify",
         "projectLink": "https://eventify.com",
         "club": "AIC",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["Angular", "Express.js", "MongoDB"]
     },
     {
         "name": "E-commerce Platform",
@@ -27,7 +29,8 @@
         "githubLink": "https://github.com/shopify",
         "projectLink": "https://shopify.com",
         "club": "CySec",
-        "label": "hard"
+        "label": "hard",
+        "techStack": ["Vue.js", "Django", "PostgreSQL"]
     },
     {
         "name": "Food Delivery App",
@@ -37,7 +40,8 @@
         "githubLink": "https://github.com/quickeats",
         "projectLink": "https://quickeats.com",
         "club": "PyC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["React Native", "Node.js", "Firebase"]
     },
     {
         "name": "Remote Collaboration Tool",
@@ -47,7 +51,8 @@
         "githubLink": "https://github.com/teamsync",
         "projectLink": "https://teamsync.com",
         "club": "REC",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["React", "Firebase", "Socket.IO"]
     },
     {
         "name": "Online Learning Platform",
@@ -57,7 +62,8 @@
         "githubLink": "https://github.com/eduhub",
         "projectLink": "https://eduhub.com",
         "club": "DevC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["React", "Node.js", "MongoDB"]
     },
     {
         "name": "Fitness Tracking App",
@@ -67,7 +73,8 @@
         "githubLink": "https://github.com/fittrack",
         "projectLink": "https://fittrack.com",
         "club": "AIC",
-        "label": "hard"
+        "label": "hard",
+        "techStack": ["Flutter", "Firebase", "Node.js"]
     },
     {
         "name": "Online Marketplace",
@@ -77,7 +84,8 @@
         "githubLink": "https://github.com/marketmall",
         "projectLink": "https://marketmall.com",
         "club": "CySec",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["Angular", "Spring Boot", "MySQL"]
     },
     {
         "name": "Travel Booking Platform",
@@ -87,7 +95,8 @@
         "githubLink": "https://github.com/travelease",
         "projectLink": "https://travelease.com",
         "club": "PyC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["React", "Express.js", "MongoDB"]
     },
     {
         "name": "Task Management Tool",
@@ -97,7 +106,8 @@
         "githubLink": "https://github.com/taskmaster",
         "projectLink": "https://taskmaster.com",
         "club": "REC",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["Vue.js", "Django", "PostgreSQL"]
     },
     {
         "name": "Social Networking App",
@@ -107,7 +117,8 @@
         "githubLink": "https://github.com/connectify",
         "projectLink": "https://connectify.com",
         "club": "DevC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["React Native", "Node.js", "MongoDB"]
     },
     {
         "name": "Recipe Sharing Platform",
@@ -117,7 +128,8 @@
         "githubLink": "https://github.com/reciperadar",
         "projectLink": "https://reciperadar.com",
         "club": "AIC",
-        "label": "hard"
+        "label": "hard",
+        "techStack": ["Angular", "Express.js", "MongoDB"]
     },
     {
         "name": "Music Streaming Service",
@@ -127,7 +139,8 @@
         "githubLink": "https://github.com/tunebox",
         "projectLink": "https://tunebox.com",
         "club": "CySec",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["React", "Spring Boot", "MySQL"]
     },
     {
         "name": "Language Learning App",
@@ -137,7 +150,8 @@
         "githubLink": "https://github.com/lingolift",
         "projectLink": "https://lingolift.com",
         "club": "PyC",
-        "label": "easy"
+        "label": "easy",
+        "techStack": ["Flutter", "Firebase", "Node.js"]
     },
     {
         "name": "Job Search Platform",
@@ -147,7 +161,7 @@
         "githubLink": "https://github.com/jobquest",
         "projectLink": "https://jobquest.com",
         "club": "REC",
-        "label": "medium"
+        "label": "medium",
+        "techStack": ["Angular", "Spring Boot", "PostgreSQL"]
     }
-  
 ]
