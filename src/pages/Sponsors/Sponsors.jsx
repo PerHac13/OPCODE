@@ -13,7 +13,7 @@ const Sponsors = () => {
       <br></br>
       <p className="text-[#6B7280] mt-4 flex justify-center">Trusted by more than 500 platforms</p>
       <br></br>
-      <div className='flex justify-center gap-[15rem] items-center cursor-pointer space-between'>
+      <div className='flex gap-[15rem] items-center cursor-pointer justify-evenly'>
         <p className='w-40 '><a href="https://devfolio.co/discover"><img src={logo1}></img></a></p>
         <p><a href="https://discord.com/"><img src={logo2}></img></a></p>
       </div>
