@@ -28,9 +28,7 @@ const Home = () => {
           </div>
           <Button name={"Registerd already Join our Discord"}/>
           </div>
-          
-          <br/>
-          
+        </div>
       </div>
       <About/>
     </div>
