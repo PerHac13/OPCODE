@@ -19,7 +19,7 @@ const Home = () => {
           <br></br>
           <p className='text-[#CAD4E0] [font-size:2rem]'>Open Source Spring Fest</p>
           <br></br>
-          <p className='text-[#64748A] [text-align:center]'>Welcome to our open-source platform, a vibrant hub for collaborative development and innovation. Here, passionate individuals from diverse backgrounds converge to share, contribute, and enhance projects that drive positive change. Explore our repository of code, tools, and resources, and join us in shaping the future of technology together!</p>
+          <p className='text-[#64748A] [text-align:left]'>Welcome to our open-source platform, a vibrant hub for collaborative development and innovation. Here, passionate individuals from diverse backgrounds converge to share, contribute, and enhance projects that drive positive change. Explore our repository of code, tools, and resources, and join us in shaping the future of technology together!</p>
           <br></br>
           <div className='flex flex-col items-start gap-4'>
           <div className='flex gap-5 '>

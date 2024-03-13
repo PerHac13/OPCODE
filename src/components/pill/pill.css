@@ -27,7 +27,7 @@
 .selected-pill{
     color: #00ffd1;
     border: 2px solid transparent;
-    width: 5rem;
+    width: auto;
     font-family: 'Calibrie';
     font-size: 1.1rem;
     text-align: center;
