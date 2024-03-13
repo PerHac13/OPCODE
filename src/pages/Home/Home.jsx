@@ -21,11 +21,16 @@ const Home = () => {
           <br></br>
           <p className="text-[#c2ced2]  text-[1.15rem] [text-align:left] py-[1rem]">Welcome to our open-source platform, a vibrant hub for collaborative development and innovation. Here, passionate individuals from diverse backgrounds converge to share, contribute, and enhance projects that drive positive change. Explore our repository of code, tools, and resources, and join us in shaping the future of technology together!</p>
           <br></br>
+          <div className='flex flex-col items-start gap-4'>
           <div className='flex gap-5 '>
             <Button name={"Dive In"}/>
             <Button name={"Register"}/>
           </div>
-        </div>
+          <Button name={"Registerd already Join our Discord"}/>
+          </div>
+          
+          <br/>
+          
       </div>
       <About/>
     </div>
