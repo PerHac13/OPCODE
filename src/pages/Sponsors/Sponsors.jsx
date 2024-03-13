@@ -16,11 +16,13 @@ const Sponsors = () => {
       <br></br>
       <p className="text-[#6B7280] mt-4 flex justify-center">Kindly visit our sponsors page</p>
       <br></br>
-      <div className='sm:items-center  py-20 flex flex-col lg:flex-row items-center cursor-pointer sm:ml-60 lg:ml-0 gap-8 lg:justify-start lg:gap-16  w-[20%] h-auto lg:w-auto lg:h-auto' >
-        <p><a className='' href="https://devfolio.co/discover"><img src={dev}></img></a></p>
-        <p><a href="https://filecoin.io/"><img src={file}></img></a></p>
+      <div className='sm:items-center  py-20 flex flex-col items-center cursor-pointer sm:ml-60 lg:ml-0 gap-8 lg:justify-start lg:gap-16  w-[20%] h-auto lg:w-auto lg:h-auto' >
+        <p className='text-4xl'>Gold Sponsors</p>
+        <p><a className='' href="https://devfolio.co/discover"><img src={dev}></img></a></p> 
         <p><a href="https://polygon.technology/"><img src={poly}></img></a></p>
-        <p><a href="https://replit.com/"><img src={replit}></img></a></p>
+        <p className='text-4xl'>Silver Sponsors</p>
+        <p><a href="https://filecoin.io/"><img src={file}></img></a></p>
+        <p><a className='w-[40rem]' href="https://replit.com/"><img src={replit}></img></a></p>
         <p><a href="https://solana.com/"><img src={solana}></img></a></p>
       </div>
 
