@@ -41,7 +41,7 @@ const Projects = () => {
 
   return (
     <div className="parent-project">
-      <div className="flex gap-5 mx-5 mt-10 justify-center">
+      <div className="flex flex-wrap gap-5 mx-5 mt-10 justify-center">
         <Pill
           onClick={() => handleClubFilter("All")}
           selected={selectedPill}
