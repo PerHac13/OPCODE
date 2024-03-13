@@ -36,12 +36,12 @@ function Navbar() {
             >
               Sponsors
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/about"
               className="text-[#00FFD1] mx-4  capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
             >
               About Us
-            </NavLink>
+            </NavLink> */}
             <Button name={"Register"} />
           </div>
 
@@ -112,13 +112,13 @@ function Navbar() {
             >
               Sponsors
             </NavLink>
-            <NavLink
+            {/* <NavLink
               to="/about"
               className="block text-center text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
               onClick={() => setIsOpen(!isOpen)}
             >
               About Us
-            </NavLink>
+            </NavLink> */}
             <Button
               className={"w-[6.8rem] "}
               name={"Register"}
