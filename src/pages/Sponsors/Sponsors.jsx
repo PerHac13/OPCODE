@@ -1,5 +1,8 @@
-import logo1 from '../../assets/devfolio.svg'
-import logo2 from '../../assets/discord.svg'
+import dev from '../../assets/sponsors/devfolio.png'
+import file from '../../assets/sponsors/Filecoin.png'
+import poly from '../../assets/sponsors/Polygon.png'
+import replit from '../../assets/sponsors/replit.png'
+import solana from '../../assets/sponsors/Solana.png' 
 const Sponsors = () => {
   return (
     <div className=" text-[#CAD4E0] font-normal [font-style:inter]  mx-[9rem] pt-10">
@@ -8,14 +11,17 @@ const Sponsors = () => {
                 <div className=" [font-size:28px]">Sponsors</div>
         </div>
       <div className=" mt-4 flex justify-center ">
-              <p  className='[text-align:justify]'>Join us for an exhilarating hackathon experience powered by our esteemed sponsors. With their generous support, we're fostering innovation and collaboration in the tech community. Let's create something extraordinary together. A big thank you to all our sponsors for making this event possible!</p>
+              <p  className='[text-align:justify]'>Join us for an exhilarating open source experience powered by our esteemed sponsors. With their generous support, we're fostering innovation and collaboration in the tech community. Let's create something extraordinary together. A big thank you to all our sponsors for making this event possible!</p>
       </div>
       <br></br>
       <p className="text-[#6B7280] mt-4 flex justify-center">Kindly visit our sponsors page</p>
       <br></br>
-      <div className='flex gap-[15rem] items-center cursor-pointer justify-evenly'>
-        <p className='w-40 '><a href="https://devfolio.co/discover"><img src={logo1}></img></a></p>
-        <p><a href="https://discord.com/"><img src={logo2}></img></a></p>
+      <div className='sm:items-center  py-20 flex flex-col lg:flex-row items-center cursor-pointer sm:ml-60 lg:ml-0 gap-8 lg:justify-start lg:gap-16  w-[20%] h-auto lg:w-auto lg:h-auto' >
+        <p><a className='' href="https://devfolio.co/discover"><img src={dev}></img></a></p>
+        <p><a href="https://filecoin.io/"><img src={file}></img></a></p>
+        <p><a href="https://polygon.technology/"><img src={poly}></img></a></p>
+        <p><a href="https://replit.com/"><img src={replit}></img></a></p>
+        <p><a href="https://solana.com/"><img src={solana}></img></a></p>
       </div>
 
     </div>
