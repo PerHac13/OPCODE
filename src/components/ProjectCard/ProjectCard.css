@@ -17,6 +17,7 @@
     box-shadow: 0px 0px 5px 0px #00FFD1;
     cursor: pointer;
     transform: translateY(-5px);
+    z-index: 1;
 }
 
 .project-card:hover .project-name {
