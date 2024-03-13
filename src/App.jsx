@@ -11,8 +11,9 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
-    <div className="bg-bground min-h-screen pt-20">
-      <NavBar />
+    <>
+      <div className="bg-bground min-h-screen pt-20">
+        <NavBar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
@@ -21,9 +22,9 @@ const App = () => {
           <Route path="/about" element={<AboutUs />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
-      
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 
