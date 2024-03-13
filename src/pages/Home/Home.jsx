@@ -6,7 +6,7 @@ const Home = () => {
   return (
     // <div className='sm:px-8 md:px-2 lg:px-[9rem] lg:py-[3rem]'>
       <div className='p-5'>
-      <div className='flex justify-center items-center min-w-10'>
+      <div className='flex justify-center items-center'>
             <div>
                           <div className='px-[1rem] lg:mx-[10rem] md:mx-[6rem] sm:mx-[4rem] lg:w-[30rem] pb-[3rem] overflow-hidden'>
                         <div className="flex text-[#00FFD1] items-center gap-6 mb-[3rem] pt-[2rem]">
@@ -28,17 +28,17 @@ const Home = () => {
                         
                         <br></br>
                         <div className='flex flex-col items-start gap-4'>
-                        <div className='flex gap-5 '>
+                        <div className='flex gap-20'>
                           <Button name={"Dive In"}/>
                           <Button name={"Register"}/>
                         </div>
-                        <Button name={"Registerd already Join our Discord"}/>
+                        <Button name={"Registered already Join our Discord"}/>
                         </div>
                       </div>
                     </div>
             </div>
 
-            <div className='[@media (max-width:1000px) {display:hidden}]'>
+            <div className='hidden lg:block'>
               <img src={h_logo}></img>
             </div>
       </div>
