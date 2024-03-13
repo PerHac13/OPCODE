@@ -42,7 +42,9 @@ function Navbar() {
             >
               About Us
             </NavLink> */}
-            <Button name={"Register"} />
+            <NavLink to="/register">
+              <Button name={"Register"} />
+            </NavLink>
           </div>
 
           {/* Hamburger menu (mobile) */}
@@ -119,11 +121,13 @@ function Navbar() {
             >
               About Us
             </NavLink> */}
-            <Button
-              className={"w-[6.8rem] "}
-              name={"Register"}
-              onClick={() => setIsOpen(!isOpen)}
-            />
+            <NavLink to="/register">
+              <Button
+                className={"w-[6.8rem] "}
+                name={"Register"}
+                onClick={() => setIsOpen(!isOpen)}
+              />
+            </NavLink>
           </div>
         </div>
       )}
