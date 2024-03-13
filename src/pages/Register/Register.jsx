@@ -67,12 +67,12 @@ const Register = () => {
             <ul className="list-disc ml-8 mt-2">
               <li>
                 Each project will be divided into three difficulty levels: easy,
-                medium, and hard, designated with points 1, 2, and 3
+                medium, and hard, designated with points 1, 2, and 4
                 respectively.
               </li>
               <li>
                 Issues within each difficulty level will be further categorized
-                as easy (1 point), medium (3 points), and hard (5 points).
+                as easy (1 point), medium (3 points), and hard (4 points).
               </li>
               <li>
                 The score earned for each successful pull request will be
