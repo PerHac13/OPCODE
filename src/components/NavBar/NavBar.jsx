@@ -8,7 +8,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="p-4 overflow-hidden fixed w-full  z-50 top-0 left-0 bg-bground">
+    <nav className="sm:p-4 overflow-hidden fixed w-full pb-4 z-50 top-0 left-0 bg-bground">
       <div className="max-w-7xl mx-auto px-4 pt-2">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -89,32 +89,32 @@ function Navbar() {
 
       {/* Mobile menu (hidden by default) */}
       {isOpen && (
-        <div className="md:hidden py-4 cursor-pointer flex-col justify-center items-center">
-          <div className="flex justify-between items-center px-6">
+        <div className="md:hidden py-4 flex cursor-pointer justify-center items-center">
+          <div className=" justify-between items-center">
             <NavLink
               to="/"
-              className="block text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
+              className="block text-center text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
               onClick={() => setIsOpen(!isOpen)}
             >
               Home
             </NavLink>
             <NavLink
               to="/projects"
-              className="block text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
+              className="block text-center text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
               onClick={() => setIsOpen(!isOpen)}
             >
               Projects
             </NavLink>
             <NavLink
               to="/sponsors"
-              className="block text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
+              className="block text-center text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
               onClick={() => setIsOpen(!isOpen)}
             >
               Sponsors
             </NavLink>
             <NavLink
               to="/about"
-              className="block text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
+              className="block text-center text-[#00FFD1] my-2 capitalize relative cursor-pointer transition-all  duration-500 before:content-['']  before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-0.5  before:rounded-full  before:opacity-0  before:transition-all  before:duration-500 before:bg-[#00FFD1] hover:before:w-full hover:before:opacity-100"
               onClick={() => setIsOpen(!isOpen)}
             >
               About Us
