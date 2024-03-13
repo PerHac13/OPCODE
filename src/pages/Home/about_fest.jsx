@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="  p-[2rem] justify-center ">
       <div className="flex items-center justify-center">
-        <div className="bg-[#00FFD1] w-[0.75rem] h-[0.75rem] [border-radius:100%]"></div>
+        <div className="bg-[#00FFD1] w-[0.75rem] h-[0.75rem] [border-radius:100%] hidden sm:block"></div>
         <div className="text-[#fff] [font-size:2.5rem] [text-align:center] p-[2rem] ">
           Know more about us
         </div>
@@ -11,7 +11,7 @@ const About = () => {
         {" "}
         Hola Amigos!
       </span>
-      <div className="text-[#c2ced2]  text-[1.15rem] [text-align:left] py-[1rem]">
+      <div className="text-[#c2ced2]  text-[1.15rem] [text-align:justify] md:[text-align:left] py-[1rem]">
         {" "}
         Welcome to our very first Intra College Open Source Fest! We're thrilled
         to embark on this exciting journey celebrating the spirit of open
@@ -37,10 +37,11 @@ const About = () => {
         and inspiring Intra College Open Source Fest!
         <br></br>
       </div>
-      <span className="text-[#00ffd1] text-xl mt-3 justify-center flex">
+      <div className="text-[#00ffd1] text-xl mt-3 justify-center [text-align:center] flex">
         {" "}
-        Vive la communauté open source ! (Long live the open source community!)
-      </span>
+        Vive la communauté open source ! <br />
+        (Long live the open source community!)
+      </div>
     </div>
   );
 };
