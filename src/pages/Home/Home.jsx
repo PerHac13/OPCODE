@@ -22,7 +22,7 @@ const Home = () => {
                 <img className="w-[15rem]" src={logo} alt="Logo"></img>
               </div>
               <br></br>
-              <p className="text-[#CAD4E0] text-2xl">Open Source Spring Fest</p>
+              <p className="text-[#CAD4E0] text-2xl">Open Source Spring Fest'<span className="text-[#00FFD1]">24</span></p>
               <br></br>
               <div></div>
               <p className="text-[#c2ced2]  text-[1.15rem] [text-align:left] py-[1rem]">

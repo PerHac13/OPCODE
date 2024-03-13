@@ -1,53 +1,45 @@
 .main-footer-box {
     background-color: whitesmoke;
     height: auto;
-    padding:2rem 0;
+    padding:2rem 0rem;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     background-color: #112240;
+    color: white;
+
 
 }
 
-.logo-college {
-    height: 7rem;
-    width: 7rem;
-}
-
-.college-name {
-    color: #FFFFFF;
-    margin-top: 16px;
-    font-family: Calibri;
+.title-f{
+    font-family: 'DIGITAL';
     font-size: 2rem;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-bottom: 32px;
-    flex-wrap: wrap;
-    line-height: 2rem;
-
-
-}
-
-.social-info {
-    font-family: Calibri;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 19px;
-    letter-spacing: 0em;
-    text-align: center;
+    font-weight: 700;
     color: #00FFD1;
-     
-
 }
 
-.logos-social-media{
+.desc-f{
     display: flex;
-    margin-top: 32px;
-    flex-direction: row;
-    gap:32px;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-family: 'Calibrie';
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #cec2d4;
 }
+
+.links-f:hover{
+    color: #00FFD1;
+}
+
+.img-l-f{
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+     justify-content: center;
+     align-items: center;
+
+}
+
 
